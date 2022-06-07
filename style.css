@@ -1,1 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 1fr auto;
+    justify-content: center;
+}
+ .header> img{
+    width: 100px;
+    align-items: center;
 
+}
+.nav-bar{
+    display: grid;
+    grid-area: nav-bar;
+    text-align: end;
+}
+.nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.brand-name{
+    text-decoration-color: aqua;
+}
