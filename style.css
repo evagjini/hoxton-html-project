@@ -69,6 +69,14 @@ a{
     text-decoration: none;
     color: rgb(187, 131, 131);
 }
+.shop-now{
+    font-size: 14px;
+    color: rgb(187, 131, 131);
+    border: 1px solid gray;
+    padding: 0.2rem;
+    border-radius:30px;
+    
+}
 .container{
     max-width: 1300px;
     margin: auto;
