@@ -3,31 +3,108 @@
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+.body{
+    height: 100vh;
     display: grid;
+    grid-template: 
+    'header-1'auto
+    'header-2' auto
+    'section1'auto
+    'section2'auto
+    'section3'auto
+    'section4'auto
+    'footer' auto /
+    auto
+}
+.header-1{
+    display: grid;
+    grid-area: header-1;
+}
+.brand-name {
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    color:darkslateblue;
+}
+
+.header-2{
+    display: grid;
+    grid-area: header-2;
     grid-auto-flow: column;
     grid-template-columns: auto 1fr auto;
-    justify-content: center;
 }
- .header> img{
-    width: 100px;
-    align-items: center;
+.header-2-left-menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.5rem;
+}
+ .e-store-icon{
+    width: 150px;
+    align-items: start;
+    
 
 }
-.nav-bar{
+.header-2-right-menu{
     display: grid;
+    grid-auto-flow: column;
+    gap: 0.5 rem;
+} 
+
+ .nav-bar{
     grid-area: nav-bar;
-    text-align: end;
+    font-size: 17px;
 }
-.nav-bar ul li{
+
+
+.nav-bar-lists{
+    display: grid;
+    grid-auto-flow: column;
     list-style: none;
-    display: inline-block;
-    margin-right: 20px;
+    margin-right: 15px;
+    text-align: end;
+    
+    
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(187, 131, 131);
 }
-.brand-name{
-    text-decoration-color: aqua;
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.main{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.top-section-1-wrapper{
+    background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,fl_lossy,q_1/if_w_gt_1920,w_1920/enUS/Images/x-cat-ss22_summer-shop_refresh1-mw-large-mh-d_tcm221-897457.jpg);
+    background-size: 100%;
+    background-position:auto;
+    height: 550px;
+    background-repeat: no-repeat;
+    padding: 1rem;
+
+
+    display: grid;
+    align-content: start;
+    gap: 0.5rem;
+
+}
+.top-section-1{
+    align-items: center;
+}
+.top-section-1 .tittle{
+font-size: 2rem;
+color: white;
+padding-top: 50px;
+justify-content: center;
+}
+.top-section-1 .subtittle{
+    color: white;
+    padding-top: 20px;
+    justify-content: center;
+
 }
