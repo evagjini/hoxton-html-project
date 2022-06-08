@@ -19,13 +19,16 @@
 .header-1{
     display: grid;
     grid-area: header-1;
-    background-color: rgb(242, 232, 232);
+    background: -webkit-linear-gradient(left, #bd5cbd, #909eca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* background-color: rgb(242, 232, 232); */
 }
 .brand-name {
     justify-content: center;
     text-align: center;
     font-size: 50px;
-    color:darkslateblue;
+    /* color:darkslateblue; */
 }
 
 .header-2{
@@ -148,6 +151,9 @@ justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: .025em;
     line-height: .8;
+    background: -webkit-linear-gradient(left, #b28fb2, #4169e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .popular-border  {
     display: grid;
