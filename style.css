@@ -83,7 +83,7 @@ a{
     
 }
 .shop-now:hover{
-    background: #563436;
+    background: #0f0102;
 
 }
 .container{
@@ -216,8 +216,15 @@ justify-content: center;
     background-position: center bottom;
     background-repeat: no-repeat;
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:720px) {
      .product-grid-section {
     grid-template-columns: 1fr;
 }
+}
+
+
+.join-us-text-section{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: red;
 }
