@@ -221,6 +221,18 @@ justify-content: center;
     background-position: center bottom;
     background-repeat: no-repeat;
 }
+.product-grid-section-photo:hover{
+    transform: scale(1.10);
+}
+.product-grid-section-photo-2:hover{
+    transform: scale(1.10);
+}
+.product-grid-section-photo-3:hover{
+    transform: scale(1.10);
+}
+.product-grid-section-photo-4:hover{
+    transform: scale(1.10);
+}
 @media screen and (max-width:720px) {
      .product-grid-section {
     grid-template-columns: 1fr;
@@ -278,13 +290,20 @@ button {
 .footer-column a{
     color: black;
     padding-top: 10px;
+    
 
     
 }
+
+
 .footer ul{
     list-style: none;
     padding-top: 10px;
 
+
+}
+footer ul li{
+    padding: 3px;
 }
  
     
