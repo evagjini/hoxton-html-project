@@ -296,6 +296,7 @@ button {
     justify-content: center;
     margin: 20px 15px 30px;
     background-color: #fff;
+    border-top: 1px solid rgb(223, 204, 204);
 
 }
 .footer h4{
@@ -304,8 +305,6 @@ button {
 .footer-column a{
     color: black;
     padding-top: 10px;
-    
-
     
 }
 
@@ -319,35 +318,39 @@ button {
 footer ul li{
     padding: 3px;
 }
- 
+.products-html-tittle{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:#d0d3dd
+}
  .product-items{
      display: grid;
      grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
      gap: 0.5rem;
      margin-top: 4rem;
-     
-
- }   
- .product-container{
-     /* grid-auto-flow: column; */
-     /* gap:0.5rem */
- }
-
+     border-radius: 5px;
+    }  
 
 .product-container div{
     height: 100%;
     background-color: white;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     padding: 0 1rem 1rem 1rem;
     gap: 1rem;
 }
+.product-container div:hover{
+    transform: scale(1.10);
+}
+
 .product-container div >img{
     padding-top: 10px;
-    /* padding-left: 5px; */
+    padding-left: 5px;
     height: 250px;
     border-radius: 5px;
-    padding: 1rem 0.5rem 1rem 1rem;
+    /* padding: 1rem 0.5rem 1rem 1rem; */
     align-content: center;
+    position: relative;
 
     
 }
