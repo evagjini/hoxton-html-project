@@ -428,3 +428,21 @@ label{
     background-color: rgb(251, 173, 30);
    
 }
+
+.product-container div > span :visited{
+    color: red;
+}
+@media screen and (max-width: 760px){
+    .header-2{
+        display: none;
+    }
+    .header-2-mobile{
+        display: block;
+    }
+    .footer{
+        display: none;
+    }
+    .footer.mobile{
+        display: block;
+    }
+}
